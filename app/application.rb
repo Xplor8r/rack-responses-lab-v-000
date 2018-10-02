@@ -2,8 +2,8 @@ class Application
   
   def call(env)
     resp = Rack::Response.new
-    resp.write "Good Morning!" if
+    resp.write "Good Morning!" 
     
-    resp.write "Good Afternoon!" if 
+    resp.write "Good Afternoon!" 
   end
 end
